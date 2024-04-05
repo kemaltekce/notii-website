@@ -1,2 +1,5 @@
 # notii-website
-website of the notii app
+
+yet another way to be productive.
+
+Official website of the notii app.

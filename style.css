@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Roboto Mono;
+  /* font-family: Inter; */
+  line-height: 1.5;
+  font-weight: 400;
+  color: #555555;
+  background-color: #fefefe;
+  font-size: 16px;
+}
+
+div#design ::-webkit-scrollbar,
+div#intro ::-webkit-scrollbar {
+  display: none;
+}
+
+#circularcursor {
+  /* visibility: hidden; */
+  background-color: #9866c950;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+  filter: blur(1rem);
+  pointer-events: none;
+}
