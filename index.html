@@ -16,8 +16,8 @@
     />
     <title>notii</title>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.7/dist/cdn.min.js"></script>
-    <script type="module" crossorigin src="./assets/index-86094335.js"></script>
-    <link rel="stylesheet" href="./assets/index-74915c2e.css">
+    <script type="module" crossorigin src="./assets/index-8f5512be.js"></script>
+    <link rel="stylesheet" href="./assets/index-83256ebe.css">
   </head>
   <body class="" x-data={} @mousemove="handleMouseMove">
     <div id="circularcursor"></div>
@@ -56,7 +56,9 @@
             @click="image = 3">notes</button>.
         </div>
         <div class="w-full border-[#555555] border-[1px] rounded-[11px]">
-          <img :src="`./images/design_${image}.png`" alt="" />
+          <img src="./assets/design_1-25c9dbce.png" alt="" x-show="image === 1"/>
+          <img src="./assets/design_2-4a582ed8.png" alt="" x-show="image === 2"/>
+          <img src="./assets/design_3-134dcdca.png" alt="" x-show="image === 3"/>
         </div>
       </div>
 
@@ -79,7 +81,7 @@
             or just delete them if you are done.
           </div>
           <div class="
-            bg-[url('./images/design_4.png')] m-auto w-[500px] h-[200px] mt-7
+            bg-[url('./images/design_4.png')] m-auto max-w-[500px] h-[200px] mt-7
             group-hover:-translate-y-[20px] group-hover:h-[220px] group-hover:mb-[-20px]
             bg-cover border-x-[1px] border-t-[1px] border-[#555555] rounded-t-[4px]"
           ></div>
@@ -97,7 +99,7 @@
             linethrough and code.
           </div>
           <div class="
-            bg-[url('./images/design_3.png')] m-auto w-[500px] h-[200px] mt-7
+            bg-[url('./images/design_3.png')] m-auto max-w-[500px] h-[200px] mt-7
             group-hover:-translate-y-[20px] group-hover:h-[220px] group-hover:mb-[-20px]
             bg-cover border-x-[1px] border-t-[1px] border-[#555555] rounded-t-[4px]"
           ></div>
@@ -126,7 +128,7 @@
             <div class="px-10 hover:bg-[#5a73b1] hover:text-[#fefefe]"><span class="font-bold">meta+shift+i:</span> iterate note/task/done</div>
           </div>
           <div class="
-            bg-[url('./images/design_1.png')] m-auto w-[500px] h-[200px] mt-7
+            bg-[url('./images/design_1.png')] m-auto max-w-[500px] h-[200px] mt-7
             group-hover:-translate-y-[20px] group-hover:h-[220px] group-hover:mb-[-20px]
             bg-cover border-x-[1px] border-t-[1px] border-[#555555] rounded-t-[4px]"
           ></div>
