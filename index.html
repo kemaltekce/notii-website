@@ -16,8 +16,8 @@
     />
     <title>notii</title>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.7/dist/cdn.min.js"></script>
-    <script type="module" crossorigin src="./assets/index-8f5512be.js"></script>
-    <link rel="stylesheet" href="./assets/index-83256ebe.css">
+    <script type="module" crossorigin src="./assets/index-6f5de13c.js"></script>
+    <link rel="stylesheet" href="./assets/index-f24c5d37.css">
   </head>
   <body class="" x-data={} @mousemove="handleMouseMove">
     <div id="circularcursor"></div>
@@ -55,7 +55,7 @@
             :class="image === 3 ? 'border-[1px] border-[#555555]' : ''"
             @click="image = 3">notes</button>.
         </div>
-        <div class="w-full border-[#555555] border-[1px] rounded-[11px]">
+        <div class="w-full border-[#555555] border-[1px] rounded-[11px] max-[500px]:rounded-[4px] overflow-hidden">
           <img src="./assets/design_1-25c9dbce.png" alt="" x-show="image === 1"/>
           <img src="./assets/design_2-4a582ed8.png" alt="" x-show="image === 2"/>
           <img src="./assets/design_3-134dcdca.png" alt="" x-show="image === 3"/>
